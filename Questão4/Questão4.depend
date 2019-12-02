@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1575311331 source:c:\users\aluno\desktop\questão4\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<Pessoa.h>
+
+1575311278 c:\users\aluno\desktop\questão4\include\pessoa.h
+	<string>
+
+1575311381 source:c:\users\aluno\desktop\questão4\src\pessoa.cpp
+	"Pessoa.h"
+	<string>
+

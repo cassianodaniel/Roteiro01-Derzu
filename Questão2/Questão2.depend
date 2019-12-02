@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1575310394 source:c:\users\aluno\desktop\questão2\main.cpp
+	<iostream>
+	<string>
+	<Invoice.h>
+
+1575310333 c:\users\aluno\desktop\questão2\include\invoice.h
+	<string>
+
+1575310341 source:c:\users\aluno\desktop\questão2\src\invoice.cpp
+	"Invoice.h"
+	<string>
+

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1575310986 source:c:\users\aluno\desktop\questão3\main.cpp
+	<iostream>
+	"classefuncionario.h"
+	<string>
+
+1575310859 c:\users\aluno\desktop\questão3\include\classefuncionario.h
+	<string>
+
+1575311083 source:c:\users\aluno\desktop\questão3\src\classefuncionario.cpp
+	"classefuncionario.h"
+	<iostream>
+

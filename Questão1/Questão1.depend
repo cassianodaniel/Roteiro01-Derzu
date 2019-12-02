@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1575310004 source:c:\users\aluno\desktop\questão1\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	"Data.h"
+
+1575310149 c:\users\aluno\desktop\questão1\include\data.h
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<locale.h>
+
+1575310004 source:c:\users\aluno\desktop\questão1\src\data.cpp
+	"Data.h"
+
