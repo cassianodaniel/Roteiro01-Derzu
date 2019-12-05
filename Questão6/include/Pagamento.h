@@ -1,28 +1,18 @@
-//Pagamento.h
-
-#ifndef PAGAMENTO_H
-#define PAGAMENTO_H
+//ControleDePagamentos.cpp
 #include <string>
+#include "Pagamento.h"
 
 using namespace std;
 
-class Pagamento
-{
+class ControleDePagamentos{
     public:
-        Pagamento();
-        Pagamento(double, string);
-        virtual ~Pagamento();
-        double getValorPagamento();
-        void setValorPagamento(double);
-        string getNomedoFuncionario();
-        void setNomedoFuncionario(string);
-
+        ControleDePagamentos();
+        void setPagamentos(Pagamento p, int pos);
+        double calculaTotalDePagamentos();
+        bool existePagamentoParaFuncionario(string nomeFuncionario);
+        ~ControleDePagamentos();
 
     protected:
-
+        Pagamento pagamentos[100];
     private:
-    double valorPagamento;
-    string nomeDoFuncionario;
 };
-
-#endif // PAGAMENTO_H
